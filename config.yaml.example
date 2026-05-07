@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────────────────────────────────
+#  Backup Bot — config
+#
+#  Setup:
+#    1. cp config.yaml.example config.yaml
+#    2. paste your bot token below
+#    3. (optional) put your Discord user id in owner_id
+#    4. python3 main.py
+# ─────────────────────────────────────────────────────────────────────
+
+# Bot token. Create an application at
+#   https://discord.com/developers/applications
+# and grab the token from the "Bot" tab. Required.
+bot_token: "PASTE_YOUR_BOT_TOKEN_HERE"
+
+# Your Discord user id. Bypasses every permission check in the bot.
+#   Discord → Settings → Advanced → Developer Mode (on)
+#   right-click your name → Copy User ID
+# Leave as 0 if you don't want a bot-owner override.
+owner_id: 0
